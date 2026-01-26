@@ -1,0 +1,13 @@
+{
+	"metodo": "GET",
+	"base_url": "https://api.exemplo.com",
+	"endpoint": "/user/{cpf}/pedidos",
+	"headers": {
+		"auth": "Bearer {token}",
+		"Content-Type": "application/json"
+	},    
+    "query": {
+		"pedido": "str",
+		"cpf": "str"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"metodo": "POST",
+	"base_url": "https://api.exemplo.com",
+	"endpoint": "/user/{user_id}/pedidos",
+	"headers": {
+		"auth": "Bearer {token}",
+		"Content-Type": "application/json"
+	},    
+    "query": {
+		"status": "str",
+		"shop": "str"
+	},	
+	"body": {
+		"product_id": "str",
+		"quantity": 0,
+		"date": "str",
+		"cpf": "str"
+	}
+}
